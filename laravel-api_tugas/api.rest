@@ -1,0 +1,45 @@
+GET http://127.0.0.1:8000/api/products
+
+###
+
+POST http://127.0.0.1:8000/api/products
+Content-Type: application/json
+
+{
+    "name": "hy",
+    "desc": "qm",
+    "qty": 22,
+    "price": 70000
+}
+
+###
+
+POST http://127.0.0.1:8000/api/products
+Content-Type: application/json
+
+{
+    "name": "henglo",
+    "desc": "xixi",
+    "qty": 5,
+    "price": 10000
+}
+
+###
+
+GET http://127.0.0.1:8000/api/products/2
+
+###
+
+PUT http://127.0.0.1:8000/api/products/2
+Content-Type: application/json
+
+{
+    "name": "gmn",
+    "desc": "oh gt",
+    "qty": 10,
+    "price": 20000
+}
+
+###
+
+DELETE http://127.0.0.1:8000/api/products/2
